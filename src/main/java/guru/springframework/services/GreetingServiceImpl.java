@@ -1,11 +1,11 @@
 package guru.springframework.services;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by jt on 5/24/17.
  */
-@Service
+@Component
 public class GreetingServiceImpl implements GreetingService {
 
     public static final String HELLO_GURUS = "Hello Gurus!!!! - Original";
